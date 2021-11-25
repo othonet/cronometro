@@ -59,7 +59,7 @@ function cronoMount(minutes, seconds) {
 }
 
 function iniciaAnimacao(elemento){
-    elemento.classList.toggle("jumping");
+    elemento.classList.add("jumping");
 }
 
 function pausaAnimacao(elemento){
